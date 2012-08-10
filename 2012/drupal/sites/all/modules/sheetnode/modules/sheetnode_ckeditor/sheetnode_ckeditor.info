@@ -1,0 +1,12 @@
+name = Sheetnode CKEditor
+description = Adds CKEditor button to Sheetnode toolbar.
+package = Sheetnode
+dependencies[] = sheetnode
+core = 7.x
+
+; Information added by drupal.org packaging script on 2012-07-02
+version = "7.x-1.0-beta3"
+core = "7.x"
+project = "sheetnode"
+datestamp = "1341201169"
+

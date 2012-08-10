@@ -1,0 +1,22 @@
+name = Sheetnode
+description = Spreadsheet node using <a href="http://www.socialtext.net/open/index.cgi?socialcalc">SocialCalc</a>.
+package = Sheetnode
+core = 7.x
+configure = admin/config/content/sheetnode
+
+stylesheets[all][] = socialcalc/socialcalc.css
+stylesheets[all][] = sheetnode.css
+
+files[] = views/sheetnode_handler_field_cell.inc
+files[] = views/sheetnode_handler_field_range.inc
+files[] = views/sheetnode_handler_field_named_range.inc
+files[] = views/sheetnode_handler_field_date.inc
+files[] = views/sheetnode_plugin_style.inc
+files[] = views/sheetnode_raw_plugin_style.inc
+
+; Information added by drupal.org packaging script on 2012-07-02
+version = "7.x-1.0-beta3"
+core = "7.x"
+project = "sheetnode"
+datestamp = "1341201169"
+
